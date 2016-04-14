@@ -12,9 +12,11 @@
 
 .page_home h1 {
     position: absolute;
-    margin-top: 20%;
-    margin-left: -18%;
+    margin-top: 12%;
+    margin-left: -20%;
     color: white;
+    font-size: 5em;
+    text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.49);
 }
 
 .page_home h2 {
