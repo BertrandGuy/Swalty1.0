@@ -37,6 +37,14 @@ angular.module('starter', ['ionic', 'firebase'])
         url: '/home',
         templateUrl: 'templates/home.html'
       });
+
+    $stateProvider
+        .state('gaufre', {
+            url: '/gaufre',
+            templateUrl: 'templates/recette-gaufre.html'
+        });
+
+
   $urlRouterProvider.otherwise('/pre-home'); // la route par défaut
 
 });
