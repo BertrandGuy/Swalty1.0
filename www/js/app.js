@@ -32,4 +32,11 @@ angular.module('starter', ['ionic', 'firebase'])
     });
   $urlRouterProvider.otherwise('/pre-home'); // la route par défaut
 
+  $stateProvider
+      .state('home', {
+        url: '/home',
+        templateUrl: 'templates/home.html'
+      });
+  $urlRouterProvider.otherwise('/pre-home'); // la route par défaut
+
 });
