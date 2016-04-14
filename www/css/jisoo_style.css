@@ -1,0 +1,72 @@
+.page_home {
+    height:100%;
+}
+
+.page_home .col {
+    padding: 0 !important;
+}
+
+.page_home {
+    padding: 0 !important;
+}
+
+.page_home h1 {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: -18%;
+    color: white;
+}
+
+.page_home h2 {
+    text-align: center;
+}
+
+.page_home h3 {
+    position: absolute;
+    margin-top: 30%;
+    margin-left: -25%;
+    color: white;
+}
+
+.img_sucre {
+    background-image: url('../img/img_sucre.jpg');
+    background-size: cover;
+    opacity: 0.85;
+    background-position: center;
+
+}
+
+.img_sale {
+    background-image: url('../img/img_sale.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.etiquette_sucre {
+    margin-top: 350px;
+    left: 0;
+    height: 70px;
+    width: 70%;
+    background-color: #ff6b6b;
+}
+
+.etiquette_sucre h2 {
+    color: white;
+    padding-top: 12%;
+}
+
+.etiquette_sale {
+    margin-top: 350px;
+    margin-left: 30%;
+    width: 70%;
+    height: 70px;
+    background-color: #c7f464;
+}
+
+.etiquette_sale h2 {
+    color: #675959;
+    padding-top: 12%;
+}
+
+
+
