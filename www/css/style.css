@@ -1,1 +1,57 @@
 /* Empty. Add your own CSS if you like */
+
+.pre-home-div1{
+}
+.pre-home-btn1{
+  height: 40px;
+  padding: 10px;
+  resize: none;
+  background: none;
+  border: 2px solid white;
+  font-size: 30px;
+  text-shadow: 2px 2px #262626;
+  margin: 10px;
+  color:white;
+}
+.pre-home-connection{
+  color: white;
+  text-shadow: 0.5px 0.5px white;
+  margin-top: 3px;
+  margin-left: 150px;
+}
+.arrow{
+  height: 40px;
+}
+#pre-home{
+  background-image: url("../img/bg-home-page.png");
+  background-size: cover;
+}
+
+.Place{
+  height: 220px;
+}
+.pre-home-inscription{
+  color: white;
+  text-align: center;
+}
+.pre-home-inscription1{
+  border: 2px solid #c7f464;
+  border-radius: 20px;
+}
+
+.pre-home-connection2{
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+.pre-home-connection3{
+  border: 2px solid white;
+  border-radius: 20px;
+  color: white;
+}
+.arrow-red{
+  height: 30px;
+}
+.passer{
+  color: white;
+}
