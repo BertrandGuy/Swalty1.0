@@ -68,6 +68,10 @@ h1, h2, p{
 
 }
 
+.button-clear.button-clear{
+    color: #cfcfcf;
+}
+
 .item a{
 
 text-decoration: none;
