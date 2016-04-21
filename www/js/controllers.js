@@ -1,2 +1,3 @@
 
-angular.module('starter.controllers', ['firebase']);
+angular.module('starter.controllers', ['ionic','firebase'])
+
