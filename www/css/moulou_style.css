@@ -20,37 +20,70 @@ h1, h2, p{
              PAGE SUCRE
 
 ---------------------------------------------------------*/
+.page-sucre{
+    height: 100vh;
+}
 
+/* IMG de fond */
+
+.bg-empty{
+    height: 50%;
+    background-image: url('../img/bg-sucre.jpg');
+    background-size: cover;
+}
 .bg-empty h1{
-    color : #ff6b6b;
-    height: 25%;
-    vertical-align: middle;
+    color : white;
+    background-color:#ff6b6b ;
+    width: 40%;
+    height:15%;
+    float: right;
+    margin-top: 20%;
 
 }
 
+/*categories de recettes*/
+
+.categories{
+    height: 45%;
+
+}
+
+
 .row-top, .row-center, .row-bottom{
-    height:25%;
     padding: 0 !important;
+
 }
 
 
 .col{
-    height: 100%;
     padding: 0 !important;
-}
-.categ{
-    background-size: cover;
     height: 100%;
+    border-right: 1px solid #cfcfcf;
 }
 
 
+.bg-categ{
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    height: 100%;
+
+}
+
+.ligne{
+    height: 35%;
+    border-bottom: 1px solid #cfcfcf;
+}
 /*---------------------------------------------------------
-TEXT
+
+                TEXT
+
 ---------------------------------------------------------*/
-.categ h2{
-    color: white;
-    top: 40%;
-    position: relative;
+.bg-categ h2{
+    color: #ff6b6b;
+    padding-top:42%;
+    font-size: 1.2em;
     text-shadow: 0px 3px 2.85px rgba(0, 0, 0, 0.004);
 }
 
@@ -60,27 +93,27 @@ TEXT
  IMAGES CATEGORIES
  ---------------------------------------------------------*/
 .gaufres{
-    background-image: url('../img/categ-gaufres.jpg');
+    background-image: url('../img/icon/waffle.png');
 
 }
 .muffins{
-    background-image: url('../img/categ-muffin.jpg');
+    background-image: url('../img/icon/muffin.png');
 
 }
 .cookies{
-    background-image: url('../img/categ-cookies.jpg');
+    background-image: url('../img/icon/cookie.png');
 
 }
 .cake{
-    background-image: url('../img/categ-cake.jpg');
+    background-image: url('../img/icon/cake.png');
 
 }
 .crepes{
-    background-image: url('../img/categ-crepes.jpg');
+    background-image: url('../img/icon/crêpe.png');
 
 }
 .paques{
-    background-image: url('../img/categ-paques.jpg');
+    background-image: url('');
 
 }
 
