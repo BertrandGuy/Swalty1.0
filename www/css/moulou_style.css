@@ -9,6 +9,10 @@ h1, h2, p{
 ;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* RETIRE LE PADDING DE BASE */
 .padding{
     padding: 0px;

@@ -54,6 +54,12 @@ angular.module('starter', ['ionic', 'firebase'])
             templateUrl: 'templates/recette-gaufre.html'
         });
 
+    $stateProvider
+        .state('ingre', {
+            url: '/ingre',
+            templateUrl: 'templates/ingredients.html'
+        });
+
 
   $urlRouterProvider.otherwise('/pre-home'); // la route par défaut
 
