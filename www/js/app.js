@@ -49,6 +49,12 @@ angular.module('starter', ['ionic', 'firebase'])
         });
 
   $stateProvider
+        .state('sale', {
+            url: '/sale',
+            templateUrl: 'templates/page-sale.html'
+        });
+
+  $stateProvider
         .state('gaufre', {
             url: '/gaufre',
             templateUrl: 'templates/recette-gaufre.html'
