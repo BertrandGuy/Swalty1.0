@@ -229,7 +229,7 @@ text-decoration: none;
     height: 25%;
 
 }
-
+/*RESUMER DE LA RECETTE*/
 
 .ingre h2{
     color : white;
@@ -242,6 +242,7 @@ text-decoration: none;
 
 }
 
+
 .resume{
 
     height: 10vh;
@@ -251,4 +252,15 @@ text-decoration: none;
 .resume button{
     padding: 0;
     margin: 0;
+}
+
+/*INGREDIENTS NECESSAIRE */
+
+.content h3{
+    color: #cfcfcf;
+}
+
+.tool{
+    width: 10%;
+    height: 20%;
 }
