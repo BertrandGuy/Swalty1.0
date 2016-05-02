@@ -3,11 +3,11 @@
 
 }
 
-h1, h2, p{
+h1, h2, h3, p{
 
-    font-family: "Champagne & Limousines"
-;
+    font-family: "Champagne & Limousines";
 }
+
 
 a{
     text-decoration: none;
@@ -84,7 +84,7 @@ a{
                 TEXT
 
 ---------------------------------------------------------*/
-.bg-categ h2{
+.bg-categ h3{
     color: #ff6b6b;
     padding-top:42%;
     font-size: 1.2em;
@@ -132,7 +132,7 @@ a{
 
 ---------------------------------------------------------*/
 
-.page-gaufre{
+.page-gaufre, .page-ingre{
     height: 100vh;
 }
 .bg-gaufre{
@@ -216,3 +216,39 @@ text-decoration: none;
     margin-left: 31%;
 }
 
+/*---------------------------------------------------------
+
+
+    PAGE INGREDIENTS GAUFRE
+
+
+---------------------------------------------------------*/
+.bg-ingre{
+    background-image: url('../img/bg-gaufre.jpg');
+    background-size: cover;
+    height: 25%;
+
+}
+
+
+.ingre h2{
+    color : white;
+    font-size: 1.7em;
+    background-color:#ff6b6b ;
+    padding: 1%;
+    width: 70%;
+    float: right;
+    margin-top: 40%;
+
+}
+
+.resume{
+
+    height: 10vh;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.resume button{
+    padding: 0;
+    margin: 0;
+}
