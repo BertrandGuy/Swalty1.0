@@ -49,6 +49,12 @@ angular.module('starter', ['ionic', 'firebase'])
         });
 
   $stateProvider
+        .state('sel', {
+            url: '/sel',
+            templateUrl: 'templates/page-sel.html'
+        });
+
+  $stateProvider
         .state('gaufre', {
             url: '/gaufre',
             templateUrl: 'templates/recette-gaufre.html'
@@ -58,6 +64,12 @@ angular.module('starter', ['ionic', 'firebase'])
         .state('ingre', {
             url: '/ingre',
             templateUrl: 'templates/ingredients.html'
+        });
+
+    $stateProvider
+        .state('gaufre-sel', {
+            url: '/gaufre-sel',
+            templateUrl: 'templates/recette-gaufre-sel.html'
         });
 
 

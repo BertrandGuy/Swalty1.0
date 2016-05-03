@@ -1,0 +1,40 @@
+
+<ion-view view-title="Gaufre"><!--creation d'une vue-->
+    <ion-content scroll="true" class="padding"><!-- permet de rendre la  vue non scrollable-->
+        <!-- BACKGROUND GAUFRE -->
+
+        <section class="page-gaufre">
+
+            <div class="bg-gaufre">
+                <a class="button icon-left ion-chevron-left button-clear button-ligth ion-ios-arrow-thin-left" ui-sref="sucre">
+                </a>
+                <h1 class="text-center">GAUFRES</h1>
+            </div>
+
+
+            <!--LISTE DES RECETTES -->
+
+                    <ion-list ng-controller="RecetteController">
+                        <ion-item ng-repeat="recette in recettes">
+                            <span class="item item-sel">
+                        <div class="row">
+                            <div class="col col-75">
+                                <a class="item-avatar" ui-sref="ingre"><img src="img/gaufre.jpg">
+                                    <h2 class="text-center">{{recette.title}}</h2>
+                                    <p class="text-left">Durée : {{recette.duree}} minutes</p>
+                                    <p class="text-left">Difficulté : </p>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <button class="button-light button-clear ion-ios-heart-outline pull-right"></button>
+                            </div>
+                        </div>
+                    </span>
+                        </ion-item>
+                    </ion-list>
+
+
+
+        </section>
+    </ion-content>
+</ion-view>

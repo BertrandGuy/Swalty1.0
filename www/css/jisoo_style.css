@@ -70,5 +70,78 @@
     padding-top: 12%;
 }
 
+/* PAGE SALE */
+
+.page-sale{
+    height: 100vh;
+}
+
+.bg-empty-sel {
+    height: 50%;
+    background-image: url('../img/bg-sel.jpg');
+    background-position: 30% 0;
+    background-size: cover;
+}
+
+.bg-empty-sel h1 {
+    color : #675959;
+    background-color: #c7f464;
+    width: 40%;
+    height:15%;
+    float: right;
+    margin-top: 20%;
+}
+
+.bg-categ-sel h2{
+    color: #c7f464;
+    padding-top:42%;
+    font-size: 1.2em;
+    text-shadow: 0px 3px 2.85px rgba(0, 0, 0, 0.004);
+}
+
+.bg-categ-sel {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    height: 100%;
+}
 
 
+/*---------------------------------------------------------
+ IMAGES CATEGORIES
+ ---------------------------------------------------------*/
+
+.gaufres-sel{
+    background-image: url('../img/icon/waffle-sel.png');
+
+}
+.muffins-sel{
+    background-image: url('../img/icon/muffin-sel.png');
+
+}
+.cookies-sel{
+    background-image: url('../img/icon/cookie-sel.png');
+
+}
+.cake-sel{
+    background-image: url('../img/icon/cake-sel.png');
+
+}
+.crepes-sel{
+    background-image: url('../img/icon/crêpe-sel.png');
+
+}
+.paques-sel{
+    background-image: url('');
+
+}
+
+/* FIN IMAGES */
+
+/*---------------------------------------------------------
+ PAGE RECETTES GAUFRES SALEES
+ ---------------------------------------------------------*/
+
+.item-sel h2 {
+    color: #c7f464 !important;
+}
