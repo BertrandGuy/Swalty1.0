@@ -253,25 +253,46 @@ text-decoration: none;
     margin: 0;
 }
 
+.text-resume{
+    padding-top: 13px;
+}
+
 /*INGREDIENTS NECESSAIRE */
 
 .content h3{
     color: #cfcfcf;
+    margin-top: 5%;
+}
+
+.content{
+    text-align: center;
+}
+
+.content-detail{
+   text-align: center;
+   line-height: 10%;
+}
+
+.content-detail p{
+    padding-top: 8%;
+    word-wrap: break-word;
 }
 
 .tool{
-    width: 10%;
+    width: 15%;
     height: 20%;
+    margin-bottom: 8%;
+    margin-right: 8%;
 }
 
 
 .start{
-    border: 0.5px solid #ff6b6b ;
-    border-radius: 10%;
-    padding: 2%;
+    border: 0.5px solid #ff6b6b;
     color: #cfcfcf;
-    font-size: 16px;
-    font-family: "Champagne & Limousine" ;
+    font-size: 18px;
+    font-family: "Champagne & Limousines" ;
+     padding : 2% 20% 2% 20%;
 
 
 }
+
