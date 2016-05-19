@@ -3,11 +3,11 @@
 
 }
 
-h1, h2, p{
+h1, h2, h3, p{
 
-    font-family: "Champagne & Limousines"
-;
+    font-family: "Champagne & Limousines";
 }
+
 
 a{
     text-decoration: none;
@@ -83,7 +83,7 @@ a{
                 TEXT
 
 ---------------------------------------------------------*/
-.bg-categ h2{
+.bg-categ h3{
     color: #ff6b6b;
     padding-top:42%;
     font-size: 1.2em;
@@ -131,7 +131,7 @@ a{
 
 ---------------------------------------------------------*/
 
-.page-gaufre{
+.page-gaufre, .page-ingre{
     height: 100vh;
 }
 .bg-gaufre{
@@ -213,5 +213,86 @@ text-decoration: none;
     font-size: 16px;
     margin-bottom: 2px;
     margin-left: 31%;
+}
+
+/*---------------------------------------------------------
+
+
+    PAGE INGREDIENTS GAUFRE
+
+
+---------------------------------------------------------*/
+.bg-ingre{
+    background-image: url('../img/bg-gaufre.jpg');
+    background-size: cover;
+    height: 25%;
+
+}
+/*RESUMER DE LA RECETTE*/
+
+.ingre h2{
+    color : white;
+    font-size: 1.7em;
+    background-color:#ff6b6b ;
+    padding: 1%;
+    width: 70%;
+    float: right;
+    margin-top: 40%;
+
+}
+
+
+.resume{
+
+    height: 10vh;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.resume button{
+    padding: 0;
+    margin: 0;
+}
+
+.text-resume{
+    padding-top: 13px;
+}
+
+/*INGREDIENTS NECESSAIRE */
+
+.content h3{
+    color: #cfcfcf;
+    margin-top: 5%;
+}
+
+.content{
+    text-align: center;
+}
+
+.content-detail{
+   text-align: center;
+   line-height: 10%;
+}
+
+.content-detail p{
+    padding-top: 8%;
+    word-wrap: break-word;
+}
+
+.tool{
+    width: 15%;
+    height: 20%;
+    margin-bottom: 8%;
+    margin-right: 8%;
+}
+
+
+.start{
+    border: 0.5px solid #ff6b6b;
+    color: #cfcfcf;
+    font-size: 18px;
+    font-family: "Champagne & Limousines" ;
+     padding : 2% 20% 2% 20%;
+
+
 }
 
