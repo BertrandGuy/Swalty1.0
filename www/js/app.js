@@ -3,8 +3,9 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('starter', ['ionic', 'firebase'])
 
+//FIREBASE
+angular.module('SwaltyApp', ['ionic', 'firebase'])
 
 
     .run(function($ionicPlatform) {
@@ -49,9 +50,37 @@ angular.module('starter', ['ionic', 'firebase'])
         });
 
   $stateProvider
+        .state('sel', {
+            url: '/sel',
+            templateUrl: 'templates/page-sel.html'
+        });
+
+  $stateProvider
         .state('gaufre', {
             url: '/gaufre',
             templateUrl: 'templates/recette-gaufre.html'
+        });
+
+    $stateProvider
+        .state('ingre', {
+            url: '/ingre',
+            templateUrl: 'templates/ingredients.html'
+        });
+
+    $stateProvider
+        .state('gaufre-sel', {
+            url: '/gaufre-sel',
+            templateUrl: 'templates/recette-gaufre-sel.html'
+        });
+    $stateProvider
+        .state('testbdd', {
+            url: '/testbdd',
+            templateUrl: 'templates/testbdd.html'
+        });
+    $stateProvider
+        .state('testAuth', {
+            url: '/testAuth',
+            templateUrl: 'templates/testAuth.html'
         });
 
 
