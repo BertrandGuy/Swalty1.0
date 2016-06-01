@@ -91,7 +91,10 @@ angular.module('SwaltyApp').controller("AddRecetteController", function($scope, 
 
 //AFFICHER LES RECETTES
 angular.module('SwaltyApp').controller('RecetteController', function($scope, Recettes){
-    $scope.recettes = Recettes;
+
+
+
+    //$scope.recettes = Recettes;
 });
 
 
@@ -100,4 +103,58 @@ angular.module("SwaltyApp").controller("FavController", function($scope) {
 
 
 });
+
+//authInscription
+angular.module('SwaltyApp').controller('AuthController', function($scope) {
+
+    $scope.addUser = function() {
+        var ref = new Firebase("https://swaltyapp.firebaseio.com");
+        pseudo = this.pseudo;
+        mail = this.email;
+        mdp = this.mdp;
+        mdpConf = this.mdpConf;
+
+        if(mdp == mdpConf) {
+
+            ref.createUser({
+                "email": mail,
+                "password": mdp
+            }, function (error, userData) {
+                if (error) {
+                    console.log("Error creating user:", error);
+                } else {
+                    console.log("Successfully created user account with uid:", userData.uid);
+                }
+            });
+        }
+
+    }
+
+
+});
+
+
+//authConnexion
+angular.module('SwaltyApp').controller('ConnexionController', function($scope) {
+
+    $scope.userConnexion = function() {
+    var ref = new Firebase("https://swaltyapp.firebaseio.com");
+
+        pseudo = this.pseudo;
+        mdp = this.mdp;
+
+    ref.auth("AUTH_TOKEN", function(error, result) {
+        if (error) {
+            console.log("Authentication Failed!", error);
+        } else {
+            console.log("Authenticated successfully with payload:", result.auth);
+            console.log("Auth expires at:", new Date(result.expires * 1000));
+        }
+
+        })
+    }
+});
+
+
+
 
