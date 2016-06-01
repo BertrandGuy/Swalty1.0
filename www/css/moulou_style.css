@@ -296,3 +296,11 @@ text-decoration: none;
 
 }
 
+/*progressbar*/
+
+progress {
+    background-color: #ff6b6b;
+    border: 0;
+    height: 18px;
+    border-radius: 9px;
+}

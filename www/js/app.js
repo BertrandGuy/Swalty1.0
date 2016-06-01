@@ -82,6 +82,16 @@ angular.module('SwaltyApp', ['ionic', 'firebase'])
             url: '/testAuth',
             templateUrl: 'templates/testAuth.html'
         });
+    $stateProvider
+        .state('testprogress', {
+            url: '/testprogress',
+            templateUrl: 'templates/testprogress.html'
+        });
+    $stateProvider
+        .state('AuthEmail', {
+            url: '/AuthEmail',
+            templateUrl: 'templates/AuthEmail.html'
+        });
 
 
   $urlRouterProvider.otherwise('/pre-home'); // la route par défaut
