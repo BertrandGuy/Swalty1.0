@@ -91,7 +91,10 @@ angular.module('SwaltyApp').controller("AddRecetteController", function($scope, 
 
 //AFFICHER LES RECETTES
 angular.module('SwaltyApp').controller('RecetteController', function($scope, Recettes){
-    $scope.recettes = Recettes;
+
+
+
+    //$scope.recettes = Recettes;
 });
 
 

@@ -1,4 +1,4 @@
-<ion-view view-title="testbdd" ng-app="SwaltyApp" ng-controller="AddRecetteController">
+<ion-view view-title="testbdd" ng-app="SwaltyApp" ng-controller="RecetteController">
 
     <ion-header-bar class="top">
         <h1 class="title">Recettes</h1>
@@ -6,37 +6,45 @@
 
     <ion-content>
 
-        <form ng-submit="addRecette()">
+        <!--<form ng-submit="addRecette()">-->
 
-            <input ng-model="titre" placeholder="titre" /> <br><br>
-            <input ng-model="description" placeholder="description" /> <br><br>
-            <input ng-model="difficulte" placeholder="difficulte" /> <br><br>
-            <input ng-model="temps" placeholder="temps" /> <br><br>
-            <input ng-model="nbPersonne" placeholder="nbPersonne" /> <br><br>
+            <!--<input ng-model="titre" placeholder="titre" /> <br><br>-->
+            <!--<input ng-model="description" placeholder="description" /> <br><br>-->
+            <!--<input ng-model="difficulte" placeholder="difficulte" /> <br><br>-->
+            <!--<input ng-model="temps" placeholder="temps" /> <br><br>-->
+            <!--<input ng-model="nbPersonne" placeholder="nbPersonne" /> <br><br>-->
 
-            <br><br>
-            <button type="submit">
-                Ajouter la recette
-            </button>
+            <!--<br><br>-->
+            <!--<button type="submit">-->
+                <!--Ajouter la recette-->
+            <!--</button>-->
 
-        </form>
+        <!--</form>-->
 
         <!--<button class="button button-icon ion-plus" ng-click="addRecette()"/>-->
 
 
     <ion-list>
         <ion-item ng-repeat="recette in recettes">
-            {{recette.titre}} <br>
 
-            {{recette.description}} <br>
+            <button ng-click="isFav(recette)" class="button-light button-clear ion-ios-heart-outline pull-right"></button>
 
-            {{recette.difficulte}} <br>
+            <br> <br> <br> <br>
 
-            {{recette.temps}} <br>
+            Titre : {{recette.titre}} <br>
 
-            {{recette.nbPersonne}} <br>
+            Description : {{recette.description}} <br>
+
+            Difficulté : {{recette.difficulte}} <br>
+
+            Temps : {{recette.temps}} <br>
+
+            Nombre de personne : {{recette.nbPersonne}} <br>
+
         </ion-item>
     </ion-list>
+
+
 
 
     </ion-content>
